@@ -1,0 +1,20 @@
+header {
+  background-color: blue;
+  grid-area: cabeçalho ;
+}
+
+main {
+background-color: white;
+grid-area: principal ;
+}
+
+aside {
+background-color: rgba(0, 0, 0, 0.142);
+grid-area: lado-esq ;
+}
+
+
+footer {
+  background-color: rgb(10, 10, 233) ;
+  grid-area: rodapé ;
+}

@@ -1,0 +1,20 @@
+*{
+  margin: 10 ;
+
+}
+html,
+body,
+#root{
+  height: 100%;
+}
+#root {
+  display: grid;
+  grid-template-areas: 
+  'cabeçalho cabeçalho'
+  'lado-esq principal'
+  'rodapé rodapé';
+  
+ grid-template-rows: 64px 1fr 64px;
+ grid-template-columns: 256px 1fr;
+
+}
